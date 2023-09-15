@@ -1,7 +1,7 @@
-[<img src="https://raw.githubusercontent.com/mineiros-io/brand/3bffd30e8bdbbde32c143e2650b2faa55f1df3ea/mineiros-primary-logo.svg" width="400"/>](https://mineiros.io/?ref=terraform-google-cloud-function)
+[<img src="https://raw.githubusercontent.com/dragonmstr/brand/3bffd30e8bdbbde32c143e2650b2faa55f1df3ea/mineiros-primary-logo.svg" width="400"/>](https://mineiros.io/?ref=terraform-google-cloud-function)
 
-[![Build Status](https://github.com/mineiros-io/terraform-google-cloud-function/workflows/Tests/badge.svg)](https://github.com/mineiros-io/terraform-google-cloud-function/actions)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/mineiros-io/terraform-google-cloud-function.svg?label=latest&sort=semver)](https://github.com/mineiros-io/terraform-google-cloud-function/releases)
+[![Build Status](https://github.com/dragonmstr/terraform-google-cloud-function/workflows/Tests/badge.svg)](https://github.com/dragonmstr/terraform-google-cloud-function/actions)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/dragonmstr/terraform-google-cloud-function.svg?label=latest&sort=semver)](https://github.com/dragonmstr/terraform-google-cloud-function/releases)
 [![Terraform Version](https://img.shields.io/badge/Terraform-1.x-623CE4.svg?logo=terraform)](https://github.com/hashicorp/terraform/releases)
 [![Google Provider Version](https://img.shields.io/badge/google-4-1A73E8.svg?logo=terraform)](https://github.com/terraform-providers/terraform-provider-google/releases)
 [![Join Slack](https://img.shields.io/badge/slack-@mineiros--community-f32752.svg?logo=slack)](https://mineiros.io/slack)
@@ -45,7 +45,7 @@ A [Terraform] base module for creating a `google_cloudfunctions_function` resour
 In addition to creation of resource this module creates an accompanying `google_storage_bucket_object` for archiving.
 and supports additional features of the following modules:
 
-- [mineiros-io/terraform-google-cloud-function-iam](https://github.com/mineiros-io/terraform-google-cloud-function-iam)
+- [dragonmstr/terraform-google-cloud-function-iam](https://github.com/dragonmstr/terraform-google-cloud-function-iam)
 
 ## Getting Started
 
@@ -53,7 +53,7 @@ Most basic usage just setting required arguments:
 
 ```hcl
 module "terraform-google-cloud-function" {
-  source = "github.com/mineiros-io/terraform-google-cloud-function.git?ref=v0.1.1"
+  source = "github.com/dragonmstr/terraform-google-cloud-function.git?ref=v0.1.1"
 
   project     = "my-project"
   region      = "europe-west3"
@@ -464,13 +464,13 @@ Copyright &copy; 2020-2023 [Mineiros GmbH][homepage]
 
 [homepage]: https://mineiros.io/?ref=terraform-google-cloud-function
 [hello@mineiros.io]: mailto:hello@mineiros.io
-[badge-build]: https://github.com/mineiros-io/terraform-google-cloud-function/workflows/Tests/badge.svg
-[badge-semver]: https://img.shields.io/github/v/tag/mineiros-io/terraform-google-cloud-function.svg?label=latest&sort=semver
+[badge-build]: https://github.com/dragonmstr/terraform-google-cloud-function/workflows/Tests/badge.svg
+[badge-semver]: https://img.shields.io/github/v/tag/dragonmstr/terraform-google-cloud-function.svg?label=latest&sort=semver
 [badge-license]: https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg
 [badge-terraform]: https://img.shields.io/badge/Terraform-1.x-623CE4.svg?logo=terraform
 [badge-slack]: https://img.shields.io/badge/slack-@mineiros--community-f32752.svg?logo=slack
-[build-status]: https://github.com/mineiros-io/terraform-google-cloud-function/actions
-[releases-github]: https://github.com/mineiros-io/terraform-google-cloud-function/releases
+[build-status]: https://github.com/dragonmstr/terraform-google-cloud-function/actions
+[releases-github]: https://github.com/dragonmstr/terraform-google-cloud-function/releases
 [releases-terraform]: https://github.com/hashicorp/terraform/releases
 [badge-tf-gcp]: https://img.shields.io/badge/google-3.x-1A73E8.svg?logo=terraform
 [releases-google-provider]: https://github.com/terraform-providers/terraform-provider-google/releases
@@ -480,10 +480,10 @@ Copyright &copy; 2020-2023 [Mineiros GmbH][homepage]
 [cloud-function]: https://cloud.google.com/functions
 [gcp]: https://cloud.google.com/
 [semantic versioning (semver)]: https://semver.org/
-[variables.tf]: https://github.com/mineiros-io/terraform-google-cloud-function/blob/main/variables.tf
-[examples/]: https://github.com/mineiros-io/terraform-google-cloud-function/blob/main/examples
-[issues]: https://github.com/mineiros-io/terraform-google-cloud-function/issues
-[license]: https://github.com/mineiros-io/terraform-google-cloud-function/blob/main/LICENSE
-[makefile]: https://github.com/mineiros-io/terraform-google-cloud-function/blob/main/Makefile
-[pull requests]: https://github.com/mineiros-io/terraform-google-cloud-function/pulls
-[contribution guidelines]: https://github.com/mineiros-io/terraform-google-cloud-function/blob/main/CONTRIBUTING.md
+[variables.tf]: https://github.com/dragonmstr/terraform-google-cloud-function/blob/main/variables.tf
+[examples/]: https://github.com/dragonmstr/terraform-google-cloud-function/blob/main/examples
+[issues]: https://github.com/dragonmstr/terraform-google-cloud-function/issues
+[license]: https://github.com/dragonmstr/terraform-google-cloud-function/blob/main/LICENSE
+[makefile]: https://github.com/dragonmstr/terraform-google-cloud-function/blob/main/Makefile
+[pull requests]: https://github.com/dragonmstr/terraform-google-cloud-function/pulls
+[contribution guidelines]: https://github.com/dragonmstr/terraform-google-cloud-function/blob/main/CONTRIBUTING.md
